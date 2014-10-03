@@ -1,5 +1,6 @@
-node_modules
-dist
-.tmp
-.sass-cache
-bower_components
+user-console/.bowerrc
+user-console/.editorconfig
+user-console/.gitattributes
+user-console/.jshintrc
+user-console/.travis.yml
+user-console/test/.jshintrc
