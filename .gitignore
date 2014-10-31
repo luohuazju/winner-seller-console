@@ -4,3 +4,4 @@ user-console/.gitattributes
 user-console/.jshintrc
 user-console/.travis.yml
 user-console/test/.jshintrc
+superadminconsole/.idea
