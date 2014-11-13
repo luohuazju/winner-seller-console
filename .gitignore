@@ -5,3 +5,5 @@ user-console/.jshintrc
 user-console/.travis.yml
 user-console/test/.jshintrc
 superadminconsole/.idea
+
+order-rest-api/node_modules

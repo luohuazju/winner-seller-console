@@ -31,7 +31,7 @@ NodeJS
 golang
 
 6. Order API
-scala pray
+gulp expressjs 
 
 7. Super Admin Console
 python django
