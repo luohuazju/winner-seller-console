@@ -8,12 +8,11 @@ var mocha = require('gulp-mocha');
 var nodemon = require('gulp-nodemon');
 var gutil = require('gulp-util');
  
-gulp.task('default', ['develope']);
-gulp.task('develope', ['lint', 'test', 'serve', 'watch']);
+gulp.task('default', ['lint', 'test', 'serve', 'watch']);
 
  
 var paths = {
-  main    : 'server.js',
+  main    : 'app.js',
   tests   : 'test/**/*.js',
   sources : [ '**/*.js', '!node_modules/**']
 };
@@ -35,7 +34,7 @@ gulp.task('test', function (){
 //run app using nodemon
 gulp.task('serve', [], function(){
   return nodemon({
-    script: 'server.js',
+    script: 'app.js',
     watch   : paths.sources
   });
 });
