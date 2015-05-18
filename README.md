@@ -1,7 +1,18 @@
 winner-seller-console
 =====================
 
-1. User Console
+1. User API
+NodeJS
+
+1. Admin Console
+gulp, Web Starter Kit
+
+Command
+>gulp serve
+>gulp serve:dist
+>gulp 
+
+2. User Console
 AngularJS, Bootstrap
 
 Command
@@ -10,22 +21,11 @@ Command
 >grunt serve:dist
 >grunt
 
-2. Admin Console
-gulp, Web Starter Kit
-
-Command
->gulp serve
->gulp serve:dist
->gulp 
-
-2. Security Proxy
+3. Security Proxy
 NodeJS
 
-3. Auth Center
+4. Auth Center
 Scala Spray
-
-4. User API
-NodeJS
 
 5. Product API
 golang
